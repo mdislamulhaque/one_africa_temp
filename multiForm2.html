@@ -252,6 +252,97 @@
                   placeholder="Enter street address"
                 />
               </div>
+               <!-- Address Line 2 -->
+              <div class="mb-3">
+                <label for="addressLine2" class="form-label"
+                  >Address Line 2</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="addressLine2"
+                  placeholder="Apartment, suite, etc."
+                />
+              </div>
+            </div>
+
+            <!-- middle Column -->
+            <div class="col-md-4">
+             
+
+              <!-- City -->
+              <div class="mb-3">
+                <label for="city" class="form-label">City</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="city"
+                  placeholder="Enter city"
+                />
+              </div>
+
+              <!-- State / Province / Region -->
+              <div class="mb-3">
+                <label for="state" class="form-label"
+                  >State / Province / Region</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="state"
+                  placeholder="Enter state or province"
+                />
+              </div>
+
+              <!-- Postal Zip Code -->
+              <div class="mb-3">
+                <label for="postalCode" class="form-label"
+                  >Postal Zip Code</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="postalCode"
+                  placeholder="Enter postal code"
+                />
+              </div>
+
+              <!-- Postal Address Toggle -->
+              <div class="form-check form-switch mb-3">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="sameAsPhysical"
+                />
+                <label class="form-check-label" for="sameAsPhysical"
+                  >Same as Physical Address</label
+                >
+              </div>
+              <!-- Country -->
+              <div class="mb-3">
+                <label for="country" class="form-label">Country</label>
+                <select class="form-select" id="country">
+                  <option selected disabled>Select an option...</option>
+                  <option>United States</option>
+                  <option>Canada</option>
+                  <option>United Kingdom</option>
+                  <option>Australia</option>
+                  <!-- Add more options as needed -->
+                </select>
+              </div>
+
+              <!-- Street Address -->
+              <div class="mb-3">
+                <label for="streetAddress" class="form-label"
+                  >Street Address</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="streetAddress"
+                  placeholder="Enter street address"
+                />
+              </div>
 
               <!-- Address Line 2 -->
               <div class="mb-3">
@@ -303,194 +394,124 @@
                 />
               </div>
 
-              <!-- Postal Address Toggle -->
-              <div class="form-check form-switch mb-3">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="sameAsPhysical"
-                />
-                <label class="form-check-label" for="sameAsPhysical"
-                  >Same as Physical Address</label
+              <!-- Length of Time at This Address -->
+              <div class="mb-3">
+                <label for="lengthOfTime" class="form-label"
+                  >Length of time at this address?</label
                 >
-              </div>
-            </div>
-
-            <!-- middle Column -->
-            <div class="col-md-4">
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="Enter email"
-                />
-              </div>
-              <div class="form-group mb-3">
-                <label>Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Password"
-                />
-              </div>
-
-              <div class="form-group mb-3">
-                <label>Confirm password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Confirm password"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="Enter email"
-                />
-              </div>
-              <div class="form-group mb-3">
-                <label>Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Password"
-                />
-              </div>
-
-              <div class="form-group mb-3">
-                <label>Confirm password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Confirm password"
-                />
-              </div>
-              <div class="form-group mb-3">
-                <label>Confirm password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Confirm password"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="Enter email"
-                />
-              </div>
-              <div class="form-group mb-3">
-                <label>Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Password"
-                />
-              </div>
-
-              <div class="form-group mb-3">
-                <label>Confirm password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Confirm password"
-                />
+                <select class="form-select" id="lengthOfTime">
+                  <option selected disabled>Select an option...</option>
+                  <option>Less than 1 year</option>
+                  <option>1–2 years</option>
+                  <option>3–5 years</option>
+                  <option>More than 5 years</option>
+                </select>
               </div>
             </div>
             <!-- Right Column -->
             <div class="col-md-4">
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="Enter email"
-                />
+              <!-- Phone Number -->
+              <div class="form-section row mb-3">
+                <label class="form-label"
+                  >Phone Number ( Please include country / area codes )</label
+                >
+                <div class="col-md-2">
+                  <input type="text" class="form-control" placeholder="+1" />
+                </div>
+                <div class="col-md-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter phone number"
+                  />
+                </div>
               </div>
-              <div class="form-group mb-3">
-                <label>Password</label>
+
+              <!-- Mobile Number -->
+              <div class="form-section row mb-3">
+                <label class="form-label"
+                  >Mobile Number ( Please include country codes )</label
+                >
+                <div class="col-md-2">
+                  <input type="text" class="form-control" placeholder="+1" />
+                </div>
+                <div class="col-md-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter mobile number"
+                  />
+                </div>
+              </div>
+
+              <!-- ID Issuing Country -->
+              <div class="form-section mb-3">
+                <label class="form-label">ID Issuing Country</label>
+                <select class="form-select">
+                  <option selected>Select an option...</option>
+                  <option>USA</option>
+                  <option>Bangladesh</option>
+                  <option>India</option>
+                </select>
+              </div>
+
+              <!-- Nationality -->
+              <div class="form-section mb-3">
+                <label class="form-label">Nationality</label>
+                <select class="form-select">
+                  <option selected>Select an option...</option>
+                  <option>Bangladeshi</option>
+                  <option>Indian</option>
+                  <option>American</option>
+                </select>
+              </div>
+
+              <!-- Account Manager -->
+              <div class="form-section mb-3">
+                <label class="form-label">Account Manager</label>
+                <select class="form-select">
+                  <option selected>Select an option...</option>
+                  <option>John Doe</option>
+                  <option>Jane Smith</option>
+                </select>
+              </div>
+
+              <!-- Dealer -->
+              <div class="form-section mb-3">
+                <label class="form-label">Dealer</label>
+                <select class="form-select">
+                  <option selected>Select an option...</option>
+                  <option>Dealer A</option>
+                  <option>Dealer B</option>
+                </select>
+              </div>
+
+              <!-- Promotion Token -->
+              <div class="form-section mb-3">
+                <label class="form-label">Promotion Token</label>
                 <input
-                  type="password"
+                  type="text"
                   class="form-control"
-                  placeholder="Password"
+                  placeholder="Enter promotion token"
                 />
               </div>
 
-              <div class="form-group mb-3">
-                <label>Confirm password</label>
+              <!-- Registration Token -->
+              <div class="form-section mb-3">
+                <label class="form-label">Registration Token</label>
                 <input
-                  type="password"
+                  type="text"
                   class="form-control"
-                  placeholder="Confirm password"
+                  placeholder="Enter registration token"
                 />
               </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
+              <!-- affeliate Token -->
+              <div class="form-section mb-3">
+                <label class="form-label">Affiliate Token</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
-                  id="email"
-                  placeholder="Enter email"
-                />
-              </div>
-              <div class="form-group mb-3">
-                <label>Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Password"
-                />
-              </div>
-
-              <div class="form-group mb-3">
-                <label>Confirm password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Confirm password"
-                />
-              </div>
-              <div class="form-group mb-3">
-                <label>Confirm password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Confirm password"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="Enter email"
-                />
-              </div>
-              <div class="form-group mb-3">
-                <label>Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Password"
-                />
-              </div>
-
-              <div class="form-group mb-3">
-                <label>Confirm password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  placeholder="Confirm password"
+                  placeholder="Enter registration token"
                 />
               </div>
             </div>
